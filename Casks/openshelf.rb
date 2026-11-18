@@ -2,8 +2,7 @@ cask "openshelf" do
   version "1.10.0"
   sha256 "86912d997f267f887a8a6adb8cfcc63a5d1f45c9276e136551a615a5f8670a93"
 
-  url "https://github.com/Manan-Santoki/OpenShelf/releases/download/v#{version}/OpenShelf-#{version}.dmg",
-      verified: "github.com/Manan-Santoki/OpenShelf/"
+  url "https://github.com/Manan-Santoki/OpenShelf/releases/download/v#{version}/OpenShelf-#{version}.dmg"
   name "OpenShelf"
   desc "Menu bar shelf and drag-and-drop file converter"
   homepage "https://openshelf.space/"
